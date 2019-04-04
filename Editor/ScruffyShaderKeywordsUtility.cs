@@ -342,6 +342,12 @@ public class ScruffyShaderKeywordsUtility : EditorWindow {
         GUILayout.Label("Made by ScruffyRules#0879");
         GUILayout.FlexibleSpace();
         GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        GUILayout.FlexibleSpace();
+        GUILayout.Label("Feel free to DM!");
+        GUILayout.FlexibleSpace();
+        GUILayout.EndHorizontal();
     
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
