@@ -1,6 +1,9 @@
 # ScruffyShaderKeywordsUtility
 A Unity3D tool to remove potentially unused shader keywords from VRChat Avatars!
 
+## Download
+You can download via the green button near the top right there (Download Zip) or [click here!](https://github.com/ScruffyRules/ScruffyShaderKeywordsUtility/archive/master.zip)
+
 ## How to use
 Go to `Tools > Scruffy > Avatar Shader Keywords Utility`  
 Click on the checkboxes to open up a list of the materials that are used by that avatar  
