@@ -4,6 +4,12 @@ A Unity3D tool to remove potentially unused shader keywords from VRChat Avatars!
 ## Download
 You can download via the green button near the top right there (Download Zip) or [click here!](https://github.com/ScruffyRules/ScruffyShaderKeywordsUtility/archive/master.zip)
 
+## But why
+Unity has a global limit of 256 keywords. A lot (~60) are used internally by Unity.  
+Any new keyword you encounter goes onto a global list, and will stay until you restart the client.  
+Keywords are used to create compile time branches and remove code, to optimize a shader, however, because of the 256 keyword limit, using them in VRChat can cause other shaders which use keywords to break, as once you hit the limit, any new keyword will get ignored.  
+It's best in the confines of VRChat to stray away from using them if possible, as not to cause issues with (your) shaders breaking.
+
 ## How to use
 Go to `Tools > Scruffy > Avatar Shader Keywords Utility`  
 Click on the checkboxes to open up a list of the materials that are used by that avatar  
