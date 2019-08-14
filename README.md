@@ -18,7 +18,7 @@ Clicking delete will remove that keyword from the material
 Clicking `Delete ALL Keywords on this Material` will delete all keywords on that material  
 
 By default there is a whitelist of keywords that will not be deleted by this tool and are Unity Standard.  
-Here is the list of Unity Standard keywords.  
+Here is the list of Unity Standard keywords and Post Processing V2.  
 > _ALPHABLEND_ON  
 _ALPHAMODULATE_ON  
 _ALPHAPREMULTIPLY_ON  
